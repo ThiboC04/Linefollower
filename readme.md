@@ -7,15 +7,15 @@ lege repository die je als template kan gebruiken om een eigen repository te sta
   
 ## specifications
 
-microcontroller:
+microcontroller: ARDUINO UNO R4 Wifi board
 
-motors: 
+motors: 2x DC Gearbox motor 130 RPM 
 
-h-bridge:
+h-bridge:	Pololu DRV8833 Dual Motor Driver Carrier
 
-sensors:
+sensors: Pololu QTR-8A Reflectance Sensor Array
 
-batteries:
+batteries: PROCELL Intense 1,5V AA
 
 wireless communication:
 

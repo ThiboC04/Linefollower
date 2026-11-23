@@ -1,0 +1,86 @@
+
+#include <WiFiS3.h>
+
+// WiFi configuratie
+char ssid[] = "LineFollowerTC";
+char pass[] = "Robot1234";
+
+WiFiServer server(80);
+int wifiStatus = WL_IDLE_STATUS;
+
+// WiFi Access Point opstarten
+void wifiSetup() {
+
+  if (WiFi.status() == WL_NO_MODULE) {
+    Serial.println("WiFi module not found!");
+    while (true);
+  }
+
+  wifiStatus = WiFi.beginAP(ssid, pass);
+
+  if (wifiStatus != WL_AP_LISTENING) {
+    Serial.println("WiFi startup failed!");
+    while (true);
+  }
+
+  delay(2000);
+
+  server.begin();
+
+  Serial.println("WIFI ACTIVE");
+  Serial.print("Network: ");
+  Serial.println(ssid);
+
+  Serial.print("Open: http://");
+  Serial.println(WiFi.localIP());
+}
+
+// HTTP communicatie
+void webServerLoop() {
+
+  WiFiClient client = server.available();
+
+  if (!client) {
+    return;
+  }
+
+  client.setTimeout(1000);
+
+  String request = client.readStringUntil('\r');
+
+  while (client.connected()) {
+    String line = client.readStringUntil('\n');
+
+    if (line.length() <= 1) {
+      break;
+    }
+  }
+
+  Serial.print("Received: ");
+  Serial.println(request);
+
+  client.println("HTTP/1.1 200 OK");
+  client.println("Content-Type: text/plain");
+  client.println("Connection: close");
+  client.println();
+
+  client.println("Message received by Arduino UNO R4 WiFi");
+
+  client.stop();
+}
+
+// Initialisatie
+void setup() {
+
+  Serial.begin(115200);
+  delay(1000);
+
+  wifiSetup();
+}
+
+// Hoofdprogramma
+void loop() {
+
+  webServerLoop();
+
+}

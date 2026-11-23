@@ -50,3 +50,9 @@ De gegevens worden via HTTP-verzoeken uitgewisseld. De sensorwaarden worden in J
 9. Het Line Follower-dashboard wordt geopend.
 
 Via het dashboard kunnen de sensorwaarden live worden bekeken en kunnen de robot en zijn parameters draadloos worden bediend.
+
+
+
+<img width="563" height="1218" alt="IMG_6651" src="https://github.com/user-attachments/assets/03396599-4901-4567-a4d0-706bf163bc51" />
+<img width="563" height="1218" alt="IMG_6652" src="https://github.com/user-attachments/assets/4cbabe26-024e-4afe-8be2-eaa243865ec8" />
+<img width="563" height="1218" alt="IMG_6653" src="https://github.com/user-attachments/assets/91663239-4cb0-481f-a33d-788912f04c52" />

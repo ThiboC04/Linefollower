@@ -13,8 +13,10 @@
 | 09         | Chassisplaat                  | Montageplaat voor de robotcomponenten                       | Nieuw       | € 5,00         | 1      | € 5,00    |
 | 10         | Lijm                          | Bevestigingsmateriaal voor montage van componenten          | Nieuw       | € 4,00         | 1      | € 4,00    |
 | 11         | Aan/uit-schakelaar            | Hoofdschakelaar voor het onderbreken van de batterijvoeding | Nieuw       | € 0,50         | 1      | € 0,50    |
-| 12         | Motorbevestigingsklemmen      | Zadelklemmen voor bevestiging van de DC-motoren             | Nieuw       | € 0,30         | 2      | € 0,60    |
+| 12         | Motorbevestigingsklemmen      | Zadelklemmen voor bevestiging van de DC-motoren             | Nieuw       | € 0,15         | 2      | € 0,30    |
+| 14         | Krimpkousen                   | Isolatiemateriaal voor elektrische verbindingen             | Recup       | –              | x      | € 0,00    |
+| 15         | Soldeerdraad                  | Soldeermateriaal voor elektrische verbindingen              | Recup       | –              | x      | € 0,00    |
 
 **Totaal materiaalkost**
-# **€ 104,79**
 
+# **€ 104,79**

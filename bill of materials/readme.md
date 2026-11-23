@@ -15,7 +15,7 @@
 | 10  | Lijm                          | Bevestigingsmateriaal voor montage              | Nieuw       | € 4,00         | 1      | € 4,00    |
 | 11  | Aan/uit-schakelaar            | Hoofdschakelaar voor batterijvoeding            | Nieuw       | € 0,50         | 1      | € 0,50    |
 | 12  | Motorbevestigingsklemmen      | Zadelklemmen voor bevestiging van motoren       | Nieuw       | € 0,15         | 2      | € 0,30    |
-| 13  | Start/stop-drukknop           | Drukknop voor starten en stoppen van de robot   | Nieuw       | €0,50   | 1      | €0,50         |
+| 13  | Start/stop-drukknop           | Drukknop voor starten en stoppen van de robot   | Nieuw       | €0,50   | 1      | € 0,50         |
 | 14  | Power-on LED                  | Visuele indicatie dat de robot ingeschakeld is  | Recup       | € 0,00         | 1      | € 0,00    |
 | 15  | LED-weerstand                 | Stroombegrenzende weerstand voor de LED         | Recup       | € 0,00         | 1      | € 0,00    |
 | 16  | 2S Li-ion batterijlader       | Lader voor twee 18650-batterijen (8,4 V)        | Recup       | € 0,00         | 1      | € 0,00    |

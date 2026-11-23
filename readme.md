@@ -1,27 +1,17 @@
 # LineFollower
 
-lege repository die je als template kan gebruiken om een eigen repository te starten voor uw linefollower project
+Repository voor het line-followerproject. Deze repository dient als documentatie en basis voor de ontwikkeling van de eigen line-followerrobot.
 
-![A description of my image](images/empty.png)
+## Specifications
 
-  
-## specifications
-
-microcontroller: ARDUINO UNO R4 Wifi board
-
-motors: 2x DC Gearbox motor 130 RPM 
-
-h-bridge:	Pololu DRV8833 Dual Motor Driver Carrier
-
-sensors: Pololu QTR-8A Reflectance Sensor Array
-
-batteries: 6 x PROCELL Intense 1,5V AA te zwaar dus 2x18650 besteld
-
-wireless communication: bluetooth
-
-distance sensor - motors: 120mm andere motoren en wielen besteld
-
-weight:
-
-speed: 
-
+- **Microcontroller:** Arduino UNO R4 WiFi
+- **Motors:** 2x Aslong JGA12-N20-50 DC Gearmotor – 6V, 300 RPM
+- **Wheels:** Pololu Wheel 32x7mm Pair
+- **H-bridge:** Pololu DRV8833 Dual Motor Driver Carrier
+- **Sensors:** Pololu QTR-8A Reflectance Sensor Array (8 analoge sensoren)
+- **Batteries:** 2x Molicel INR18650-M35A Li-ion – 3500 mAh, 10A
+- **Battery holder:** 2x 18650 batterijhouder met klemcontacten
+- **Wireless communication:** WiFi and Bluetooth (built-in on Arduino UNO R4 WiFi)
+- **Distance sensor – motors:** 120 mm (voorlopig, nog te controleren na aanpassing van de motoren en wielen)
+- **Weight:** 
+- **Speed:** 
